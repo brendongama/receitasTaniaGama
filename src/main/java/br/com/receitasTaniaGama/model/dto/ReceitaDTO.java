@@ -16,7 +16,7 @@ public class ReceitaDTO implements Serializable{
 	
 	private Integer id;
 	
-	@NotNull(message = "O campo iitulo é requerido")
+	@NotNull(message = "O campo titulo é requerido")
 	private String titulo;
 	
 	@NotNull(message = "O ingredientes Titulo é requerido")
